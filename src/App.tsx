@@ -1,5 +1,4 @@
-import { Header } from './components/Header'
-import { TaskList } from './components/TaskList'
+import { Header, TaskList } from './components'
 
 import './styles/global.css'
 
