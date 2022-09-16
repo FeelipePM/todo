@@ -1,0 +1,70 @@
+.taskList header {
+  max-width: 736px;
+  margin: 0 auto;
+  margin-top: calc(0px - 1.5rem - 6px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputGroup {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.inputGroup input {
+  width: 100%;
+  background: var(--gray-500);
+  color: var(--gray-300);
+  line-height: 1.4;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 0;
+  resize: none;
+}
+
+.inputGroup button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--blueDark);
+  color: var(--gray-100);
+  border: 0;
+  border-radius: 8px;
+  font-weight: 700;
+  padding: 1rem;
+
+  transition: all 0.2s;
+}
+
+.inputGroup button:hover {
+  background: var(--blue);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 736px;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+
+.content div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  font-weight: 700;
+}
+
+.content div p span {
+  margin-left: 0.5rem;
+  background: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+}
