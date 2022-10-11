@@ -1,3 +1,7 @@
+.container {
+  width: 100%;
+}
+
 .taskList header {
   max-width: 736px;
   margin: 0 auto;
@@ -67,4 +71,25 @@
   background: var(--gray-400);
   padding: 0.125rem 0.5rem;
   border-radius: 999px;
+}
+
+.tasksEmpty {
+  max-width: 736px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding-top: 32px;
+  margin: 24px auto;
+}
+
+.tasksEmpty strong {
+  margin-top: 16px;
+}
+
+.taskWrapper {
+  margin-top: 1rem;
 }
