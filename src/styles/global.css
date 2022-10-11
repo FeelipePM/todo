@@ -6,10 +6,13 @@
   --gray-500: #262626;
   --gray-600: #1A1A1A;
   --gray-700: #0D0D0D;
+
   --purple: #8284FA;
   --purpleDark: #5E60CE;
+
   --blue: #4EA8DE;
   --blueDark: #1E6F9F;
+
   --danger: #E25858;
 }
 
@@ -25,17 +28,24 @@
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
   font: 16px "Inter", Arial, sans-serif;
   background-color: var(--gray-600);
   color: var(--gray-300);
 }
 
-.container {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 2.5rem 1rem;
-}
-
 button {
   cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
 }

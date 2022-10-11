@@ -1,0 +1,134 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  max-width: 768px;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 1rem 1rem;
+  margin: 1rem auto;
+}
+
+.checkboxContainer {
+  width: 2rem;
+  height: 2rem;
+  padding-left: 0.5rem;
+}
+
+.checkboxTask {
+  display: block;
+  margin-top: 3px;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+
+  transition: background-color 100ms;
+}
+
+.checkmark {
+  color: var(--gray-500);
+}
+
+.checkmark svg {
+  width: 0.9rem;
+}
+
+.checkboxTask:hover {
+  background: var(--blue-dark);
+  border: 2px solid var(--blue-dark);
+  color: var(--gray-300);
+}
+
+.checkboxTask input {
+  display: none;
+}
+
+
+.taskTitle {
+  padding-left: 1rem;
+}
+
+.taskTitle p {
+  color: var(--gray-100);
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+button.deleteTask {
+  background: transparent;
+  margin-top: -0.2rem;
+  border: 0;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+button.deleteTask svg {
+  color: var(--gray-300);
+  padding-top: 2px;
+
+  transition: 200ms color;
+}
+
+button.deleteTask:hover {
+  background: var(--gray-400);
+  border-radius: 5px;
+  color: var(--red-danger);
+
+}
+
+button.deleteTask svg:hover {
+  color: var(--red-danger);
+}
+
+.checkboxTaskChecked {
+  display: block;
+  margin-top: 3px;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 0;
+  background: var(--purple-dark);
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+
+  transition: background-color 100ms;
+}
+
+.checkmarkChecked {
+  color: var(--gray-500);
+}
+
+.checkmarkChecked svg {
+  width: 0.9rem;
+  color: var(--gray-100);
+  padding: 1px;
+}
+
+.checkboxTaskChecked:hover {
+  background: var(--purple);
+  color: var(--gray-300);
+}
+
+.checkboxTaskChecked input {
+  display: none;
+}
+
+
+.taskTitleChecked {
+  padding-left: 1rem;
+}
+
+.taskTitleChecked p {
+  color: var(--gray-100);
+  opacity: 0.4;
+  text-decoration: line-through;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
